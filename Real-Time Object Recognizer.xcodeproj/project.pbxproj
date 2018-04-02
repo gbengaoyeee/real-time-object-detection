@@ -14,6 +14,8 @@
 		3B140C5E2071EB7C00ED2A67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B140C5C2071EB7C00ED2A67 /* LaunchScreen.storyboard */; };
 		3B140C692071EB7D00ED2A67 /* Real_Time_Object_RecognizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B140C682071EB7D00ED2A67 /* Real_Time_Object_RecognizerTests.swift */; };
 		3B140C742071EB7D00ED2A67 /* Real_Time_Object_RecognizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B140C732071EB7D00ED2A67 /* Real_Time_Object_RecognizerUITests.swift */; };
+		3B140C822071F73300ED2A67 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3B140C812071F73200ED2A67 /* SqueezeNet.mlmodel */; };
+		3B140C842071FC6E00ED2A67 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3B140C832071FC6E00ED2A67 /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3B140C6F2071EB7D00ED2A67 /* Real-Time Object RecognizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Real-Time Object RecognizerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B140C732071EB7D00ED2A67 /* Real_Time_Object_RecognizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Real_Time_Object_RecognizerUITests.swift; sourceTree = "<group>"; };
 		3B140C752071EB7D00ED2A67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B140C812071F73200ED2A67 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
+		3B140C832071FC6E00ED2A67 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				3B140C572071EB7C00ED2A67 /* Main.storyboard */,
 				3B140C5A2071EB7C00ED2A67 /* Assets.xcassets */,
 				3B140C5C2071EB7C00ED2A67 /* LaunchScreen.storyboard */,
+				3B140C812071F73200ED2A67 /* SqueezeNet.mlmodel */,
+				3B140C832071FC6E00ED2A67 /* Resnet50.mlmodel */,
 				3B140C5F2071EB7C00ED2A67 /* Info.plist */,
 			);
 			path = "Real-Time Object Recognizer";
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B140C562071EB7C00ED2A67 /* ViewController.swift in Sources */,
+				3B140C822071F73300ED2A67 /* SqueezeNet.mlmodel in Sources */,
+				3B140C842071FC6E00ED2A67 /* Resnet50.mlmodel in Sources */,
 				3B140C542071EB7C00ED2A67 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
